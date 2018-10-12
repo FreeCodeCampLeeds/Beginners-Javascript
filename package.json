@@ -1,0 +1,27 @@
+{
+  "name": "beginners-javascript",
+  "version": "1.0.0",
+  "description": "intro to javascript for beginners",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeCodeCampLeeds/Beginners-Javascript.git"
+  },
+  "author": "Nathan Scott <Contact@nathanscott.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreeCodeCampLeeds/Beginners-Javascript/issues"
+  },
+  "homepage": "https://github.com/FreeCodeCampLeeds/Beginners-Javascript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
