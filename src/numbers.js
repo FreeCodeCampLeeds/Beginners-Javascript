@@ -1,21 +1,44 @@
-function addition(a, b) {
+// JavaScript Arithmetic Operators
+
+function addition() {
   // returns the sum of both numbers
 }
 
-function negativeNumberAddition(a, b) {
-  // returns the sum of both numbers negative numbers
+function multiplication() {
+  //returns the multiplied sum of two values
+}
+function division() {
+  // returns a divided sum of two values
+}
+function subtraction() {
+  // returns a subtracted sum of two values
+}
+function modulus() {
+  //returns the remainder
 }
 
-function lowerThan(a, b) {
+function lowerThan() {
   // returns a value lower than the other
 }
 
-function greaterThan(a, b) {
+function greaterThan() {
   // returns a value greater than the other
+}
+function increment() {
+  // returns a number incremented by one
+}
+
+function decrement() {
+  // returns a number decremented by one
 }
 module.exports = {
   addition,
-  negativeNumberAddition,
+  subtraction,
+  multiplication,
+  division,
+  modulus,
   lowerThan,
-  greaterThan
+  greaterThan,
+  increment,
+  decrement
 };
