@@ -66,8 +66,8 @@ describe("increment operator", () => {
   });
 });
 
-describe.only("decrement operator", () => {
+describe("decrement operator", () => {
   it("returns a number decreased by one", () => {
-    expect(decrement(6)).to.equals(5);
+    expect(decrement(6)).to.equal(5);
   });
 });

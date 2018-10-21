@@ -1,4 +1,7 @@
 // JavaScript Arithmetic Operators
+// if you want to work on one problem at a time you can go into the numbers.spec.js file and add .only
+// to the describe block like so describe.only("basic addition")
+// dont forget to remove it and add it to the next test
 
 function addition() {
   // returns the sum of both numbers
