@@ -1,9 +1,9 @@
-### Programming basics
+## Programming basics
 
-## Testing Basics
+### Testing Basics
 
-# Installing Node
+### Installing Node
 
-## Reading Information
+### Reading Information
 
 [Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
