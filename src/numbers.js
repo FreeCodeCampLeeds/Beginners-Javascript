@@ -34,6 +34,28 @@ function increment() {
 function decrement() {
   // returns a number decremented by one
 }
+
+//Assignment Operators
+
+function assignment() {
+  // returns a reassigned number, you cannot use divide here.
+}
+function additionAssignment() {
+  // returns an added number and reassigns it
+}
+function subtractionAssignment() {
+  // returns a subtracted number and reassigns it
+}
+
+function multiplicationAssignment() {
+  // returns a multiplied number and reassigns it
+}
+function divisionAssignment() {
+  // returns a multiplied number and reassigns it
+}
+function remainderAssignment() {
+  // returns the remainder and reassigns it
+}
 module.exports = {
   addition,
   subtraction,
@@ -43,5 +65,11 @@ module.exports = {
   lowerThan,
   greaterThan,
   increment,
-  decrement
+  decrement,
+  assignment,
+  additionAssignment,
+  subtractionAssignment,
+  multiplicationAssignment,
+  divisionAssignment,
+  remainderAssignment
 };

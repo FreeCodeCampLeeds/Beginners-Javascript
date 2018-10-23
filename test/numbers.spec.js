@@ -9,7 +9,13 @@ const {
   lower,
   greaterThan,
   increment,
-  decrement
+  decrement,
+  assignment,
+  additionAssignment,
+  subtractionAssignment,
+  multiplicationAssignment,
+  divisionAssignment,
+  remainderAssignment
 } = require("../src/numbers");
 
 //addition
@@ -69,5 +75,43 @@ describe("increment operator", () => {
 describe("decrement operator", () => {
   it("returns a number decreased by one", () => {
     expect(decrement(6)).to.equal(5);
+  });
+});
+
+describe("equal assignment operator", () => {
+  it("returns a reassigned number", () => {
+    expect(assignment(10)).to.equal(5);
+  });
+});
+
+describe("addition Assignment operator", () => {
+  it("returns an addition and a reassigned number", () => {
+    expect(additionAssignment(12, 6)).to.equal(18);
+  });
+});
+
+describe("subtraction Assignment operator", () => {
+  it("returns a subtracted and reassigned number", () => {
+    expect(subtractionAssignment(12, 6)).to.equal(6);
+  });
+});
+
+describe("multiplication Assignment operator", () => {
+  it("returns a multipled and reassigned number", () => {
+    expect(multiplicationAssignment(2, 6)).to.equal(12);
+  });
+});
+
+//divisionAssignment
+describe(" division Assignment operator", () => {
+  it("returns a divided and reassigned number", () => {
+    expect(divisionAssignment(12, 2)).to.equal(6);
+  });
+});
+
+// remainderAssignment
+describe(" remainder Assignment operator", () => {
+  it("returns a remainder and reassigned number", () => {
+    expect(remainderAssignment(5, 3)).to.equal(2);
   });
 });
