@@ -18,4 +18,12 @@ function powers() {
 function ceiling() {
   // returns a rounded number upward to its nearest integer
 }
-module.exports = { absoluteValue, higher, lower, powers, ceiling };
+
+function pie() {
+  // returns a number into a string fixed to 2 decimal places e.g "5.52"
+}
+
+function sqaure() {
+  // Return the square root of a number
+}
+module.exports = { absoluteValue, higher, lower, powers, ceiling, pie, sqaure };

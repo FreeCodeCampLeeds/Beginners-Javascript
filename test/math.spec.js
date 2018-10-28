@@ -5,7 +5,9 @@ const {
   higher,
   lower,
   powers,
-  ceiling
+  ceiling,
+  pie,
+  sqaure
 } = require("../src/math");
 
 describe("absolute value", () => {
@@ -37,5 +39,17 @@ describe("working with powers", () => {
 describe("working with rounded numbers", () => {
   it("returns a rounded number upward to its nearest integer", () => {
     expect(ceiling(2.1)).to.equal(3);
+  });
+});
+
+describe("working with rounded numbers", () => {
+  it("returns the ratio of a circle's area to the square of its radius to 2 decimal places", () => {
+    expect(pie(3.141592653589793)).to.equal("3.14");
+  });
+});
+
+describe("working with sqaure numbers", () => {
+  it("Return the square root of a number", () => {
+    expect(sqaure(16)).to.equal(4);
   });
 });
