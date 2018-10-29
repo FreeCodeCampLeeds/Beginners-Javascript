@@ -19,12 +19,12 @@ describe("array push", () => {
     expect(push([1, 2, 3], 4)[3]).to.equal(4);
   });
 });
-// describe.only("", () => {
+// describe("", () => {
 //   it("return one element in an array", () => {
 //     expect(find(["apple", "banana", "orange"])).that.includes("banana");
 //   });
 // });
-describe.only("array sort", () => {
+describe("array sort", () => {
   it("it returns an array sorted in ascending order", () => {
     expect(sorted([5, 2, 1, 4, 3])).to.eql([1, 2, 3, 4, 5]);
   });
