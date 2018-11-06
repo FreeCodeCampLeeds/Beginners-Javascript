@@ -34,3 +34,6 @@ To start you off I have given a link to some of the information you need to comp
 [Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 Everything that you complete in this beginners javascript can be found in by searching google, I recommend using MDN if you get stuck ask in the slack channel.
+
+A good book for recomended reading is You dont know Js, You can get an online version here on the github or if you are into having actual books infront of you then its definately purchasable online.
+[You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
