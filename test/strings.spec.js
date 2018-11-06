@@ -20,7 +20,7 @@ describe("string concat", () => {
   });
 });
 
-describe.only("string concat with spaces", () => {
+describe("string concat with spaces", () => {
   it("returns an empty string", () => {
     expect(
       stringConcatSpaced("string", "concatination", "with", "spaces")
