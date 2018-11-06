@@ -8,15 +8,15 @@ After you have created a copy of this repository from github you will need to do
 
 [Node installation link](https://nodejs.org/en/download/)
 
+### Installing the files needed
+
+npm i or npm install inside the beginners javascript folder inside terminal if your are on macOs
+
 ### Commands to run the tests
 
 If you are a macOs user you can open the terminal in the location you downloaded the folder, also you can open the folder in vscode if thats your editor and run npm t in the terminal inside visual studio code
 
 npm t or npm test will run each test
-
-### Installing the files needed
-
-npm i or npm install inside the beginners javascript folder inside terminal if your are on macOs
 
 ### Testing Basics
 
@@ -30,4 +30,7 @@ All the tests have been created for you so that you can focus on learning.
 
 ### Reading Information
 
+To start you off I have given a link to some of the information you need to complete the tests.
 [Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+Everything that you complete in this beginners javascript can be found in by searching google, I recommend using MDN if you get stuck ask in the slack channel.
