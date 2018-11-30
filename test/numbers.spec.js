@@ -15,7 +15,8 @@ const {
   subtractionAssignment,
   multiplicationAssignment,
   divisionAssignment,
-  remainderAssignment
+  remainderAssignment,
+  digitCount
 } = require("../src/numbers");
 
 //addition
@@ -113,5 +114,12 @@ describe(" division Assignment operator", () => {
 describe(" remainder Assignment operator", () => {
   it("returns a remainder and reassigned number", () => {
     expect(remainderAssignment(5, 3)).to.equal(2);
+  });
+});
+
+// digitCount
+describe(" Digits in a number", () => {
+  it("returns the number of digits in a number", () => {
+    expect(digitCount(12345)).to.equal(5);
   });
 });
