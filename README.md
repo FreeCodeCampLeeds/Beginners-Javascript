@@ -1,24 +1,36 @@
-## Programming basics
+# Programming basics
 
-This small project will introduce you to some of the basics in Javascript
+This small project will introduce you to some of the basics in Javascript.
 
-### Installing Node
+## What You'll need
 
-After you have created a copy of this repository from github you will need to download and install the following from this website: -
+### This Repo
+You can press the **Download** button on this page. Or if you have git installed you can run the following in your terminal.
+```bash
+git clone https://github.com/FreeCodeCampLeeds/Beginners-Javascript
+```
 
-[Node installation link](https://nodejs.org/en/download/)
+### Node
 
-### Installing the files needed
+After you have created a copy of this repository from github you will need to download and install Node.js from [**here**](https://nodejs.org/en/download/)
 
-npm i or npm install inside the beginners javascript folder inside terminal if your are on macOs
+### Install the Dependencies
 
-### Commands to run the tests
+```bash
+# make sure you are in the project directory
+npm install 
+```
 
-If you are a macOs user you can open the terminal in the location you downloaded the folder, also you can open the folder in vscode if thats your editor and run npm t in the terminal inside visual studio code
+You are all set.
 
-npm t or npm test will run each test
+## Commands to run the tests
 
-### Testing Basics
+All the prewritten tests can be run by executing the following in your project directory.
+```bash
+npm test
+```
+
+## Testing Basics
 
 Testing in its simplest form is used to ensure your code is working correctly and help remove any potential bugs from your code.
 
@@ -30,10 +42,12 @@ All the tests have been created for you so that you can focus on learning.
 
 ### Reading Information
 
-To start you off I have given a link to some of the information you need to complete the tests.
-[Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
-
 Everything that you complete in this beginners javascript can be found in by searching google, I recommend using MDN if you get stuck ask in the slack channel.
 
-A good book for recomended reading is You dont know Js, You can get an online version here on the github or if you are into having actual books infront of you then its definately purchasable online.
-[You Dont Know JS](https://github.com/getify/You-Dont-Know-JS)
+Some awesome free resources you should check out.
+
+[You Dont Know JS by *Kyle Simpson*](https://github.com/getify/You-Dont-Know-JS)
+
+[Eloquent Javascript by *Marijn Haverbeke*](https://eloquentjavascript.net/)
+
+Also Mozilla has a great reference at [MDN](https://developer.mozilla.org/bm/docs/Web/JavaScript)

@@ -56,6 +56,9 @@ function divisionAssignment() {
 function remainderAssignment() {
   // returns the remainder and reassigns it
 }
+function digitCount(n) {
+  // returns the number of digits in a number
+}
 module.exports = {
   addition,
   subtraction,
@@ -71,5 +74,6 @@ module.exports = {
   subtractionAssignment,
   multiplicationAssignment,
   divisionAssignment,
-  remainderAssignment
+  remainderAssignment,
+  digitCount
 };
