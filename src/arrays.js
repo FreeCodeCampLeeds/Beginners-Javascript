@@ -13,6 +13,10 @@ function push() {
 // function find() {
 //   // returns one found element in the array, the word you need is banana
 // }
+
+function pop() {
+
+}
 function sorted() {
   // returns an array sorted in ascending order
 }
@@ -20,6 +24,7 @@ module.exports = {
   empty,
   arrayLength,
   push,
+  pop,
   // find,
   sorted
 };

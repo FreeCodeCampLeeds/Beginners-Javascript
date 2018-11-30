@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const { empty, arrayLength, push, find, sorted } = require("../src/arrays");
+const { empty, arrayLength, push, find, pop, sorted } = require("../src/arrays");
 
 describe("empty array", () => {
   it("returns an empty array", () => {
@@ -24,6 +24,12 @@ describe("array push", () => {
 //     expect(find(["apple", "banana", "orange"])).that.includes("banana");
 //   });
 // });
+describe("array pop", () => {
+  it("it returns the last element in the array", () => {
+    expect(pop(['broccoli', 'cauliflower'])).to.eql('cauliflower');
+  });
+});
+// 'broccoli', 'cauliflower'
 describe("array sort", () => {
   it("it returns an array sorted in ascending order", () => {
     expect(sorted([5, 2, 1, 4, 3])).to.eql([1, 2, 3, 4, 5]);
