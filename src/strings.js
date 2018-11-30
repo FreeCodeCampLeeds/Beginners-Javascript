@@ -13,4 +13,12 @@ function stringLength () {
   // returns the length of a string
 
 }
-module.exports = { emptyString, stringConcat, stringConcatSpaced, stringLength };
+
+function lowerCaseString () {
+
+}
+
+function upperCaseString (string) {
+  return string.toUpperCase()
+}
+module.exports = { emptyString, stringConcat, stringConcatSpaced, stringLength, lowerCaseString, upperCaseString };
