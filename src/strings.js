@@ -8,4 +8,9 @@ function stringConcat() {
 function stringConcatSpaced() {
   // returns a longer concatinated string with spaces between each word
 }
-module.exports = { emptyString, stringConcat, stringConcatSpaced };
+
+function stringLength () {
+  // returns the length of a string
+
+}
+module.exports = { emptyString, stringConcat, stringConcatSpaced, stringLength };

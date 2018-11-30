@@ -3,7 +3,8 @@ const { expect } = require("chai");
 const {
   emptyString,
   stringConcat,
-  stringConcatSpaced
+  stringConcatSpaced,
+  stringLength
 } = require("../src/strings");
 
 describe("empty array", () => {
@@ -25,5 +26,13 @@ describe("string concat with spaces", () => {
     expect(
       stringConcatSpaced("string", "concatination", "with", "spaces")
     ).to.eql("string concatination with spaces");
+  });
+});
+
+describe("sting length", () => {
+  it("returns the length of a string", () => {
+    expect(
+      stringLength("string")
+    ).to.eql(6);
   });
 });
