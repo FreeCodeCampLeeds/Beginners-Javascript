@@ -20,11 +20,15 @@ function pop() {
 function sorted() {
   // returns an array sorted in ascending order
 }
+function concat () {
+  // returns a joined array
+}
 module.exports = {
   empty,
   arrayLength,
   push,
   pop,
   // find,
-  sorted
+  sorted,
+  concat
 };

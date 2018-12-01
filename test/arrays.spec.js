@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const { empty, arrayLength, push, find, pop, sorted } = require("../src/arrays");
+const { empty, arrayLength, push, find, pop, sorted, concat } = require("../src/arrays");
 
 describe("empty array", () => {
   it("returns an empty array", () => {
@@ -33,5 +33,11 @@ describe("array pop", () => {
 describe("array sort", () => {
   it("it returns an array sorted in ascending order", () => {
     expect(sorted([5, 2, 1, 4, 3])).to.eql([1, 2, 3, 4, 5]);
+  });
+});
+
+describe("array concat", () => {
+  it("it returns a single array", () => {
+    expect(concat(['a', 'b', 'c'], ['d', 'e', 'f'])).to.eql(['a', 'b', 'c', 'd', 'e', 'f']);
   });
 });
