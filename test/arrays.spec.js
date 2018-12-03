@@ -1,6 +1,16 @@
 const { expect } = require("chai");
 
-const { empty, arrayLength, push, find, pop, sorted, concat } = require("../src/arrays");
+const {
+  empty,
+  arrayLength,
+  push,
+  find,
+  pop,
+  sorted,
+  concat,
+  join,
+  split
+} = require("../src/arrays");
 
 describe("empty array", () => {
   it("returns an empty array", () => {
@@ -26,7 +36,7 @@ describe("array push", () => {
 // });
 describe("array pop", () => {
   it("it returns the last element in the array", () => {
-    expect(pop(['broccoli', 'cauliflower'])).to.eql('cauliflower');
+    expect(pop(["broccoli", "cauliflower"])).to.eql("cauliflower");
   });
 });
 // 'broccoli', 'cauliflower'
@@ -38,6 +48,25 @@ describe("array sort", () => {
 
 describe("array concat", () => {
   it("it returns a single array", () => {
-    expect(concat(['a', 'b', 'c'], ['d', 'e', 'f'])).to.eql(['a', 'b', 'c', 'd', 'e', 'f']);
+    expect(concat(["a", "b", "c"], ["d", "e", "f"])).to.eql([
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ]);
+  });
+});
+
+describe("array join", () => {
+  it("returns a joined array", () => {
+    expect(join(["One", "Two", "Three"])).to.equal("One Two Three");
+  });
+});
+
+describe("array join", () => {
+  it("returns a joined array", () => {
+    expect(split("One Two Three")).to.eql(["One", "Two", "Three"]);
   });
 });

@@ -15,13 +15,20 @@ function push() {
 // }
 
 function pop() {
-
+  // returns the last element of an array
 }
 function sorted() {
   // returns an array sorted in ascending order
 }
-function concat () {
-  // returns a joined array
+function concat() {
+  // returns a single array
+}
+function join() {
+  // returns a joined string from an array with spaces
+}
+
+function split() {
+  // returns an array from a string
 }
 module.exports = {
   empty,
@@ -30,5 +37,7 @@ module.exports = {
   pop,
   // find,
   sorted,
-  concat
+  concat,
+  join,
+  split
 };
