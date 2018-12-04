@@ -1,6 +1,7 @@
 const { expect } = require("chai");
 
 const { empty, objectKeys, objectValues } = require("../src/objects");
+const empty = require("../src/objects");
 
 describe("empty object", () => {
   it("returns an empty object", () => {
@@ -17,7 +18,7 @@ describe("object keys", () => {
   });
 });
 
-describe.only("object values", () => {
+describe("object values", () => {
   const input = { name: "James", age: 18, city: "bradford" };
   const actual = objectValues(input);
   const expected = ["James", 18, "bradford"];
