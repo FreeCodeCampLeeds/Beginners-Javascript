@@ -1,7 +1,6 @@
 const { expect } = require("chai");
 
 const { empty, objectKeys, objectValues } = require("../src/objects");
-const empty = require("../src/objects");
 
 describe("empty object", () => {
   it("returns an empty object", () => {
