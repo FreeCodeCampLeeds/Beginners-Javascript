@@ -4,4 +4,7 @@ function empty() {
 function objectKeys() {
   //returns an array of keys from an object
 }
-module.exports = { empty, objectKeys };
+function objectValues() {
+  //returns an array of values from an object
+}
+module.exports = { empty, objectKeys, objectValues };
