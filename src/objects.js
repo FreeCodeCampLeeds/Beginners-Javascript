@@ -7,4 +7,22 @@ function objectKeys() {
 function objectValues() {
   //returns an array of values from an object
 }
-module.exports = { empty, objectKeys, objectValues };
+function keyCount() {
+  // returns a count of the keys in an object
+}
+
+function getUsername() {
+  // returns a username from an object
+}
+
+function deleteSurname() {
+  //returns an object with a deleted surname
+}
+module.exports = {
+  empty,
+  objectKeys,
+  objectValues,
+  keyCount,
+  getUsername,
+  deleteSurname
+};
