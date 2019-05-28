@@ -19,7 +19,7 @@ describe("empty array", () => {
 });
 describe("array length", () => {
   it("returns an array of length 5", () => {
-    expect(arrayLength([1, 2, 3, 5, 4])).to.have.lengthOf(5);
+    expect(arrayLength([1, 2, 3, 5, 4])).to.equal(5);
   });
 });
 

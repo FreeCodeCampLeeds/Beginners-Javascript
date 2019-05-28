@@ -45,7 +45,7 @@ describe("get Username", () => {
   });
 });
 
-describe.only("delete surname", () => {
+describe("delete surname", () => {
   it("returns an object with a deleted surname", () => {
     expect(deleteSurname({ firstname: "James", surname: "Bond" })).to.eql({
       firstname: "James"
