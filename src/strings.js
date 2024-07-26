@@ -15,11 +15,11 @@ function stringLength () {
 }
 
 function lowerCaseString () {
-
+  // returns a lowercase string
 }
 
 
 function upperCaseString () {
- 
+   // returns an uppercase string
 }
 module.exports = { emptyString, stringConcat, stringConcatSpaced, stringLength, lowerCaseString, upperCaseString };
